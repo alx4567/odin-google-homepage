@@ -1,0 +1,44 @@
+body {
+  font: 12px rgb(0, 0, 0);
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  height: 30px;
+  width: 100%;
+  font: 10px;
+  margin: 0;
+}
+
+header a {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+}
+
+#header-links {
+  padding: 0 30px;
+  float: right;
+}
+
+.head-lnks {
+  margin-left: 15px;
+}
+
+#sqr, #bell {
+  repeat: none;
+  position: relative;
+  top: 7px;
+}
+
+#bell {
+  opacity: 0.75;
+  margin-left: 10px;
+}
+
+#initials {
+  repeat: none;
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
