@@ -120,6 +120,7 @@ div#srchbtns, .setting-tabs {
 
 .wrapper {
   padding: 0 0 0 150px;
+  overflow: hidden;
 }
 
 #results-data {
@@ -145,9 +146,13 @@ h1 a {
   padding: 0;
 }
 
+.rslt-layout {
+  margin: 0 0 25px 16px;
+}
+
 
 h1 a:hover, .rslt-layout a:hover, .sidebar-data a:hover,
-.cur a:hover, .navend a:hover  {
+.cur a:hover, .navend a:hover, .gry-txt a:hover  {
   text-decoration: underline;
 }
 
@@ -206,7 +211,10 @@ h1 a:hover, .rslt-layout a:hover, .sidebar-data a:hover,
 }
 
 .btm-nav {
-  width:632px; height: 55px;
+  width:632px;
+  overflow: hidden;
+  clear: left;
+  margin-bottom: 10px;
 }
 
 #nav {
@@ -216,7 +224,7 @@ h1 a:hover, .rslt-layout a:hover, .sidebar-data a:hover,
 nav.ftr-nav {
   border-collapse: collapse;
   text-align: left;
-  margin: 30px auto;
+  margin: 0 auto;
 }
 
 .g {
@@ -272,4 +280,56 @@ nav.ftr-nav {
 
 .navend p {
   text-align: right;
+}
+
+.gry-box {
+  display: block;
+  background-color: rgb(242, 242, 242);
+  height: 65px;
+  width: 100%;
+  padding: 18px 0 0 0;
+  margin: 18px 0 0 0;
+  border: 1px solid rgb(288, 288, 288);
+}
+
+.gry-txt {
+  padding-left: 150px;
+}
+
+.gry-crcl {
+  background-clip: border-box;
+  background-color: rgb(158, 158, 158);
+  background-origin: padding-box;
+  border-radius:  100%;
+  color: rgb(170, 170, 170);
+  line-height: 15px;
+  margin: 5px 4px 9px 0;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+
+.location, .gry-txt a .lrn-more {
+  font-family: Arial;
+  font-size: 13px;
+  color: rgb(170, 170, 170);
+  line-height: 15px;
+}
+
+.gry-txt a, .gry-txt a .lrn-more {
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+}
+
+.gry-nav a {
+  padding: 0 0 0 27px;
+  font-family: Arial;
+  font-size: 13px;
+  color: rgb(119, 119, 119);
+  line-height: 40px;
+}
+
+.gry-nav .frst {
+  padding-left: 0;
 }
