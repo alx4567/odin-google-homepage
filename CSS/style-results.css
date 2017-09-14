@@ -100,13 +100,18 @@ div#srchbtns, .setting-tabs {
 
 #srchbtns a, .setting-tabs a {
   text-decoration: none;
-  color:inherit;
+  color: rgb(119, 119, 119);
 }
 
-#all {
+#all  {
   color: rgb(66, 133, 244);
   font-weight: bold;
   border-bottom: 3px solid rgb(66, 133, 244);
+}
+
+#all a {
+  color: rgb(66, 133, 244);
+  font-weight: bold;
 }
 
 .setting-tabs {
