@@ -117,3 +117,159 @@ div#srchbtns, .setting-tabs {
 .setting-tabs {
   float: right;
 }
+
+.wrapper {
+  padding: 0 0 0 150px;
+}
+
+#results-data {
+  font-family: Arial;
+  font-size: 13px;
+  padding: 0px 8px 0 16px;
+  line-height: 43px;
+  color: rgb(128, 128, 128);
+}
+
+.results {
+  width: 600px;
+  float: left;
+}
+
+h1 a {
+  font-family: Arial;
+  font-size: 18px;
+  color: rgb(26, 13, 171);
+  text-decoration: none;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 a:hover, .rslt-layout a:hover, .sidebar-data a:hover,
+.cur a:hover, .navend a:hover  {
+  text-decoration: underline;
+}
+
+.rslt-layout h3 {
+  font-size: 14px;
+  font-family: Arial;
+  line-height: 16px;
+  color: rgb(0, 102, 33);
+  font-weight: normal;
+}
+
+.rslt-layout p {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18.2px;
+  color: rgb(84, 84, 84);
+}
+
+.rslt-layout h4, .rslt-layout h4 a, .sidebar-data a {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none;
+  color: rgb(26, 13, 171);
+  font-weight: normal;
+}
+
+.sidebar-r {
+  width: 368px;
+  float: left;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0,0, 0, 0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16.12px;
+  margin: 6px -32px 0 70px;
+  padding: 0 0 7px 0;
+}
+
+.sidebar-r h2 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: rgb(34, 34, 34);
+  line-height: 22.32px;
+  font-weight: normal;
+  padding: 15px 15px 0 15px;
+}
+
+.sidebar-data {
+  font-family: Arial, sans-serif;
+  font-size:13px;
+  line-height: 16px;
+  padding: 10px 15px 8px 15px;
+}
+
+.btm-nav {
+  width:632px; height: 55px;
+}
+
+#nav {
+  margin: 0 auto;
+}
+
+nav.ftr-nav {
+  border-collapse: collapse;
+  text-align: left;
+  margin: 30px auto;
+}
+
+.g {
+  display: block;
+  background-image: url(https://www.google.com/images/nav_logo242.png);
+  background-position: -53px 0;
+  width: 28px;
+  height: 44px;
+  background-position-x: -24px;
+}
+
+.navend, .cur {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: rgb(26, 13, 171);
+  height: 55px;
+  width: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.cur a, .navend a {
+  color: rgb(66, 133, 244);
+  text-decoration: none;
+}
+
+.csb {
+  display: block;
+  background-image: url(https://www.google.com/images/nav_logo242.png);
+  background-position: -74px 0;
+  width: 20px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.red-o {
+  display: block;
+  background-image: url(https://www.google.com/images/nav_logo242.png);
+  background-position: -53px 0;
+  width: 20px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.next {
+  display: block;
+  background-image: url(https://www.google.com/images/nav_logo242.png);
+  background-position: -96px 0;
+  width: 71px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.navend p {
+  text-align: right;
+}
